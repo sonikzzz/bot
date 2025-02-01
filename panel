@@ -1,0 +1,3 @@
+curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.gz
+tar -xzvf panel.tar.gz && cd panel
+cp .env.example .env
